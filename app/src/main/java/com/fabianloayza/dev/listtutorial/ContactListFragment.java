@@ -27,7 +27,7 @@ public class ContactListFragment extends ListFragment {
         super.onActivityCreated(savedInstanceState);
 
 
-        List<ContactEntity> contacts = ContactFactory.getInstance().getContacts(); //SQLITE //WEBSERVICE //ARRAY //DUMMIE FACTORY
+        List<ContactEntity> contacts = ContactFactory.getInstance().getContacts(); //SQLITE //WEBSERVICE //ARRAY
 
         ContactsListAdapter contactsListAdapter = new ContactsListAdapter(contacts, getActivity());
 
